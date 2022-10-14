@@ -1,0 +1,412 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.navbar{
+  z-index: 4 !important;
+}
+.back {
+  background-image: url(../img/hero-bg.jpg);
+  background-attachment: fixed;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+.back0 {
+  background-color: #181818f6 !important;
+}
+.h1 {
+  font-size: 75px;
+}
+.index {
+  z-index: 100;
+}
+
+.index h4::after {
+  content: "|";
+  animation: Freelancer 8s infinite;
+}
+@keyframes Freelancer {
+  0% {
+    content: "|";
+  }
+  2% {
+    content: " F|";
+  }
+  4% {
+    content: " Fr|";
+  }
+  6% {
+    content: " Fre|";
+  }
+  8% {
+    content: " Free|";
+  }
+  10% {
+    content: " Freel|";
+  }
+  12% {
+    content: " Freela|";
+  }
+  14% {
+    content: " Freelan|";
+  }
+  16% {
+    content: " Freelanc|";
+  }
+  18% {
+    content: " Freelance|";
+  }
+  20% {
+    content: " Freelancer.|";
+  }
+  22% {
+    content: " Freelance|";
+  }
+  24% {
+    content: " Freelanc|";
+  }
+  26% {
+    content: " Freelan|";
+  }
+  28% {
+    content: " Freela|";
+  }
+  30% {
+    content: " Freel|";
+  }
+  32% {
+    content: " Free|";
+  }
+  34% {
+    content: " Fre|";
+  }
+  36% {
+    content: " Fr|";
+  }
+  38% {
+    content: " F|";
+  }
+  40% {
+    content: " |";
+  }
+
+  42% {
+    content: "|";
+  }
+  44% {
+    content: " D|";
+  }
+  46% {
+    content: " De|";
+  }
+  48% {
+    content: " Dev|";
+  }
+  52% {
+    content: " Deve|";
+  }
+  54% {
+    content: " Devel|";
+  }
+  56% {
+    content: " Develo|";
+  }
+  58% {
+    content: " Develop|";
+  }
+  60% {
+    content: " Develope|";
+  }
+  62% {
+    content: " Developer|";
+  }
+  64% {
+    content: " Develope|";
+  }
+  66% {
+    content: " Develop|";
+  }
+  68% {
+    content: " Develo|";
+  }
+  70% {
+    content: " Devel|";
+  }
+  72% {
+    content: " Deve|";
+  }
+  74% {
+    content: " Dev|";
+  }
+  76% {
+    content: " De|";
+  }
+  78% {
+    content: " D|";
+  }
+
+  80% {
+    content: " |";
+  }
+  82% {
+    content: " D|";
+  }
+  84% {
+    content: " D|";
+  }
+  86% {
+    content: " Ds|";
+  }
+  88% {
+    content: " Dsi|";
+  }
+  90% {
+    content: " Dsig|";
+  }
+  92% {
+    content: " Dsign|";
+  }
+  94% {
+    content: " Dsigne|";
+  }
+  96% {
+    content: " Dsigner|";
+  }
+  98% {
+    content: " Dsigne|";
+  }
+  100% {
+    content: "Dsign|";
+  }
+  95% {
+    content: " Dsig|";
+  }
+  96% {
+    content: " Dsi|";
+  }
+  98% {
+    content: " Ds|";
+  }
+  100% {
+    content: "D|";
+  }
+}
+.padding {
+  padding-bottom: 100px;
+}
+.color {
+  background-color: #cde0f8;
+  height: 3%;
+}
+.color1 {
+  background-color: #0078fe;
+  color: white;
+  height: 100%;
+  width: 85%;
+}
+.color2 {
+  background-color: #0078fe;
+  color: white;
+  width: 90%;
+}
+
+.line {
+  height: 0.7%;
+  width: 20%;
+  background-color: #0078fe;
+}
+.line0 {
+  width: 4%;
+  background-color: #0078fe;
+  margin-left: 47.8%;
+}
+
+.fa {
+  border: 10px solid #0077fe;
+  border-radius: 100px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: all 0.8s;
+}
+.bord {
+  border: 10px;
+  border-radius: 20px !important;
+}
+.bord:hover .fa {
+  border: 10px solid #f8f6f6b6;
+  color: white;
+  background-color: #0077fe;
+}
+
+.back1 {
+  background-image: url(../img/post-3.jpg);
+  background-attachment: fixed;
+  height: 60vh;
+  background-size: cover;
+  position: relative;
+}
+.bg0 {
+  background-color: #0078ffb5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.padding0 {
+  padding-top: 180px;
+}
+.fa0 {
+  border: 10px solid #cde0f8;
+  border-radius: 200px;
+  padding: 15px;
+}
+.font {
+  font-size: 13px;
+}
+.des {
+  color: #0078fe;
+}
+.fa1 {
+  border: 3px solid #0078ff;
+  color: #0078ff;
+  border-radius: 30px;
+  padding: 7px;
+  font-size: 25px;
+}
+.tran {
+  overflow: hidden;
+}
+.tran img {
+  transition: all 2s;
+}
+.tran0:hover img {
+  transform: scale(1.5);
+}
+
+.back2 {
+  background-image: url(../img/overlay-bg.jpg);
+  background-attachment: fixed;
+  height: 83vh;
+  background-size: cover;
+  position: relative;
+}
+
+.margin0 {
+  width: 12px !important;
+  height: 12px !important;
+}
+
+.item {
+  width: 30px;
+}
+
+.about:hover .about0 {
+  color: #0078fe;
+}
+.about0 {
+  text-decoration: none;
+  color: #1e1e1e;
+  font-size: 20px;
+  font-weight: 500;
+  transition: color 1s;
+}
+.clr {
+  clear: both;
+}
+
+.travel {
+  position: relative;
+}
+.travel0 {
+  color: white;
+  text-align: center;
+  background-color: #0077fe;
+  border: 2px solid #0078fe;
+  border-radius: 4px;
+  width: 23%;
+  padding: 5px 0;
+  position: absolute;
+  top: 215px;
+  left: 135px;
+  font-size: 12px;
+}
+.travel1 {
+  color: white;
+  text-align: center;
+  background-color: #0077fe;
+  border: 2px solid #0078fe;
+  border-radius: 4px;
+  width: 27%;
+  padding: 5px 0;
+  position: absolute;
+  top: 215px;
+  left: 135px;
+  font-size: 11px;
+}
+.back3 {
+  background-image: url(../img/overlay-bg.jpg);
+  height: 101vh;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+.line1 {
+  height: 0.8%;
+  width: 26%;
+  background-color: #0078fe;
+}
+.Send0 {
+  text-decoration: none;
+  border: 4px solid;
+  padding: 15px 35px;
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+  background-color: #0077fe;
+  border-radius: 40px;
+  transition: all 0.5s;
+}
+.Send:hover .Send0 {
+  color: rgba(255, 255, 255, 0.781);
+  background-color: #308cf5;
+  border: 4px solid;
+}
+
+.face0 {
+  font-size: 20px;
+  border: 3px solid;
+  border-radius: 200px;
+  padding: 10px;
+  transition: all 1s;
+}
+.face0 i {
+  color: black;
+}
+.face:hover .face0 {
+  background-color: #0077fe;
+  border: 3px solid #fafbfcab;
+}
+.face0:hover i {
+  color: white;
+}
+.Folio {
+  background-color: #0361d3;
+}
+.back4 {
+  background-image: url(../img/overlay-bg.jpg);
+  background-attachment: fixed;
+  height: 110vh;
+  background-size: cover;
+  position: relative;
+}
